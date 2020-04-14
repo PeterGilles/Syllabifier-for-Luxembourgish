@@ -14,6 +14,9 @@ specified in `luxembourgish.cfg` (and also in the scripts itself) as `onsets`; p
 
 The lists with IPA transcribed words comes from the training data for my [g2p system](http://engelmann.uni.lu/transcription/).
 
+Although developed and tested for Luxembourgish, this system should also work in principle for IPA data for lots of other 
+languages. It is only necessary to adapt the configuration for `onsets`, `nuclei` and `consonsants`.
+
 ## Usage
 The Python notebook `Syllabifier` provides a simple example.
 
@@ -54,7 +57,8 @@ python syllabifier.py luxembourgish.cfg < lux_ipa.txt > lux_ipa_syllabified.txt
 ## Limitations
 
 - Compounds like `b l i n t d aː ʀ m o p e ʀ ɑ ts i̯ əʊ n` where the `m` is falsely attributed 
-to the next syllable, because `m o` is of course a permitted onset.
+to the next syllable, because `m o` is of course a permitted onset. To solve this, a 
+morphological pre-segmentation would be necessary.
 
 - Intervocalic single consonants after short vowel are ambisyllabic and should thus be 
 attributed to both syllables, which is not possible in this framework. In `ʃ t ʀ e k ə l` the
