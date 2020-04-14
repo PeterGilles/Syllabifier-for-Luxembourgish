@@ -17,7 +17,7 @@ The lists with IPA transcribed words comes from the training data for my [g2p sy
 ## Usage
 The Python notebook `Syllabifier` provides a simple example.
 
-```{python}
+```python
 import syllabifier
 language = syllabifier.Luxembourgish
 
