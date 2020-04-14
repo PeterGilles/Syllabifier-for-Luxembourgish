@@ -23,7 +23,7 @@ language = syllabifier.Luxembourgish
 
 syllables = syllabifier.syllabify(language, "æ p ə l t ɛːɐ t ɐ ɕ ɐ")
 
-# test words
+# some test words
 # æ p ə l t ɛːɐ t ɐ ɕ ɐ
 # ɑ p ʀ o v i z i̯ o n ɜɪ ə ʀ ə n
 # ʃ ɑ̃ː m b ɐ s p ʀ e z i d æ n t i n ə n
@@ -53,4 +53,10 @@ python syllabifier.py luxembourgish.cfg < lux_ipa.txt > lux_ipa_syllabified.txt
 
 ## Limitations
 
-b l i n t d aː ʀ m o p e ʀ ɑ ts i̯ əʊ n ə n
+- Compounds like `b l i n t d aː ʀ m o p e ʀ ɑ ts i̯ əʊ n` where the `m` is falsely attributed 
+to the next syllable, because `m o` is of course a permitted onset.
+
+- Intervocalic single consonants after short vowel are ambisyllabic and should thus be 
+attributed to both syllables, which is not possible in this framework. In `ʃ t ʀ e k ə l` the
+ `k` is in the second, while in `z ɑ ŋ ə n` the `ŋ` goes to the first syllable.
+ 
