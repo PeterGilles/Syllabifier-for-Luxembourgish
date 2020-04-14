@@ -12,23 +12,25 @@ syllable onset as long as this onset is permitted in the language. These allowed
 specified in `luxembourgish.cfg` (and also in the scripts itself) as `onsets`; permitted 
 `consonants` and `nuclei` are specified in the configuration as well.
 
+The lists with IPA transcribed words comes from the training data for my [g2p system](http://engelmann.uni.lu/transcription/).
+
 ## Usage
 The Python notebook `Syllabifier` provides a simple example.
 
 ```
 import syllabifier
 language = syllabifier.Luxembourgish
-syllables = syllabifier.syllabify(language, "ɑ p ʀ o v i z i̯ o n ɜɪ ə ʀ ə n")
+
+syllables = syllabifier.syllabify(language, "æ p ə l t ɛːɐ t ɐ ɕ ɐ")
+
 for stress, onset, nucleus, coda in syllables :
    print(" ".join(onset), " ".join(nucleus), " ".join(coda))
 
- ɑ 
-p ʀ o 
-v i 
-z i̯ o 
-n ɜɪ 
- ə 
-ʀ ə n
+æ 
+p ə l
+t ɛːɐ 
+t ɐ 
+ɕ ɐ 
 ```
 
 When run from a terminal:
