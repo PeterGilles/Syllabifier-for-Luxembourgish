@@ -670,8 +670,8 @@ aː . n ə ʃ t
 ɑ n . ɡ aː . b ə
 ɑ n . ɡ ə . n eː m
 ɑ̃ː . ʒ i n
-ɑ̃ː . ʒ i n . d ə p w . ɑ . t ʀ i n
-ɑ̃ː . ʒ i n . d ə p w . ɑ . t ʀ i . n ə n
+ɑ̃ː . ʒ i n . d ə . p w ɑ . t ʀ i n
+ɑ̃ː . ʒ i n . d ə . p w ɑ . t ʀ i . n ə n
 ɑ̃ː . ʒ i . n ə
 ɑ ŋ ɡ . i̯ o . l oː ʁ . ə n
 ɑ ŋ ɡ . i̯ o . l o . ʒ iː
@@ -9751,8 +9751,8 @@ k w i . t u ŋ
 ʀ o . m ə l
 ʀ o n . d ə l
 ʀ o n . d ə . ʀ ə m
-ʀ ɑ̃ː p w . aː
-ʀ ɑ̃ː p w . aː . ə n
+ʀ ɑ̃ː . p w aː
+ʀ ɑ̃ː . p w aː . ə n
 ʀ o ŋ . k ə
 ʀ o ŋ . k ə n
 ʀ o n
@@ -10543,10 +10543,10 @@ z e . ts ɜɪ . ə . ʀ ə n
 z e . ts ɜɪ . ɐ t
 z e . ts ɜɪ . ə . ʀ u ŋ
 z e . ts ɜɪ . ə . ʀ u ŋ . ə n
-ʃ ɑ̃ː p w . ɛ̃ː
-ʃ ɑ̃ː p w . ɛ̃ː . ə n
-ʃ ɑ̃ː p w . ɛ̃ː
-ʃ ɑ̃ː p w . ɛ̃ː . ə n
+ʃ ɑ̃ː . p w ɛ̃ː
+ʃ ɑ̃ː . p w ɛ̃ː . ə n
+ʃ ɑ̃ː . p w ɛ̃ː
+ʃ ɑ̃ː . p w ɛ̃ː . ə n
 ʃ o . p i ŋ . m ɜɪ ʑ . l ə ɕ . k eː . t ə n
 ʃ ɔ ʀ t
 ʃ ɔ ʀ t . k ɑ t
